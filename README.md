@@ -4,7 +4,7 @@
 
 >  切换到本地仓库
 
-*  cd /Users/Mr.peng/Documents/vue-project
+*  cd /Users/Mr.Li/Documents/vue-project
 
 >  初始化，变成git可管理（用于新建仓库）
 *  git init
@@ -55,10 +55,9 @@ a123
 b789
 =======
 b45678910
->>>>>>   6853e5ff961e684d3a6c02d4d06183b5ff330dcc
+>>>>>>   6853e5ff961e684d3a6c554d4d06183b5ff330dcc
 
 其中：冲突标记<<<<<<< （7个<）与=======之间的内容是我本人的修改，=======与>>>>>>>之间的内容是别人的修改。
-
 ```
 
 >  若已经没有冲突存在
@@ -77,14 +76,13 @@ b45678910
 
 ```
 
-git reset 47f94424978e92845c7c7eb77bca4c5e3a096154    (后面是版本号)
+git reset 47f94424978e92845c7c7eb887bca4c5e3a096154    (后面是版本号)
 
 git add .
 
 git commit -m "回退版本"
 
 git push origin master
-
 ```
 
 ## 常用的git命令
